@@ -1,0 +1,41 @@
+Ex01. Faça um programa que peça o raio de uma circuferência e calcule:
+- Seu Perimetro
+- Sua Area
+
+Formulas:
+area = PI * R²
+peritro = 2 * PI * R
+--------------------------------------------------------------------
+
+Ex02. Faça uma calculadora onde irá mostrar um Menu para o Usúario:
+"""
+CALCULADORA
+[1] - Somar
+[2] - Subtrair
+[3] - Multiplicar
+[4] - Dividir
+"""
+
+Quando o usuário inserir a operação (caso seja uma operação inválida, mostre "Opção Invalida"), peça dois numeros e mostre o resultado na tela.
+
+--------------------------------------------------------------------
+
+Ex03. Você ficou responsavel por desenvolver um sistema para calcular o faturamento diario de uma loja, o atendente ao chegar na loja executa o programa que fica em um loop infinito e ele começa perguntando: "Deseja registrar uma venda? [S/N]"
+Ao digitar "S", ele pede o valor da venda e pergunta novamente.
+Ao final do expediênte, quando o funcionário digitar "N", o programa mostrará:
+
+- Quantidade de Vendas do Dia
+- Faturamento Total do Dia
+
+---------------------------------------------------------------------
+
+Ex04. Faça um programa que peça dois numeros para o usuário, e mostre todos os numeros impares entre esses numeros (eles inclusos).
+
+---------------------------------------------------------------------
+
+
+Ex05. Faça um programa que irá calcular o desenpenho de uma turma. O programa deverá perguntar quantos alunos tem na turma, e a cada aluno deverá ser solicitado o seu nome e 2 notas (Deverá ser calculada uma média de cada aluno). Ao inserir todas as notas de todos os alunos mostre:
+
+- Média da Turma (Média das Médias dos Alunos)
+- Nome e média do aluno que teve o melhor desempenho
+- Nome e média do aluno que teve o pior desempenho
