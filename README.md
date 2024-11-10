@@ -3,12 +3,17 @@
 Repositório para armazenar codigos das aulas da turma DFS114
 
 ## Módulos 
-- Lógica de Programação (Em Andamento)
-- Python (Não Realizado)
+- Lógica de Programação (Finalizado)
+- Python (Em andamento)
 
 ## Listas de Exercicio
 
 - https://wiki.python.org.br/ListaDeExercicios
+
+## Materiais Extras
+
+- [Curso de Algoritmos em Portugol (Curso em Vídeo)](https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+- [Curso de Python (Curso em Vídeo)](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0)
 
 ## Ambientes Virtuais
 Interpretador do Python ISOLADO do python global.
