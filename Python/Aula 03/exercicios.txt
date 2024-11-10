@@ -1,0 +1,19 @@
+1. Exercício: Listas e Estruturas de Repetição
+Crie um programa que solicita ao usuário para inserir 5 números inteiros. Em seguida, armazene esses números em uma lista e calcule a soma e a média.
+
+2. Exercício: Listas e Estruturas de Repetição
+Faça um programa que pede ao usuário para inserir o nome de 3 frutas e as armazena em uma lista. Depois, imprima a lista de frutas em ordem alfabética. (Pesquisem como ordenar)
+
+3. Exercício: Condicionais e Dicionários
+
+Crie um programa que recebe a idade de uma pessoa e retorna uma mensagem diferente dependendo da faixa etária. Use um dicionário para armazenar as faixas etárias e as mensagens correspondentes.
+
+faixas_etarias = {
+    "criança": "Você é uma criança!", # Menor que 14
+    "adolescente": "Você é um adolescente!", # Entre 14 e 18
+    "adulto": "Você é um adulto!",  # Maior que 18
+    "idoso": "Você é um idoso!" # Maior que 65
+}
+
+4. Exercício: Estruturas de Repetição e Lista de Dicionários
+Crie um programa que armazena informações de pessoas (nome, idade e altura) em uma lista de dicionários. Solicite ao usuário que insira o nome a idade e a altura de 5 pessoas, em seguida, exiba todos as pessoas.
