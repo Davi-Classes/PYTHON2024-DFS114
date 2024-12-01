@@ -1,4 +1,10 @@
+import os # Importar o Modulo
+import random as rd # Importar o Modulo com um Apelido
+from tabulate import tabulate
+
+
 clientes = []
+
 
 def menu():
     print('========= Loja de Doces =========')
@@ -18,7 +24,16 @@ def menu():
     return option
 
 def listar_clientes():
-    print(clientes)
+    if len(clientes) == 0:
+        print('Não há clientes cadatrados')
+    else:
+        columns = clientes[0].keys()
+        data = []
+        for cliente in clientes:
+            data.append(cliente.values())
+        
+        tabela = tabulate(data, headers=columns)
+        print(tabela)
 
 def registrar_cliente():
     cliente = {}
@@ -29,23 +44,38 @@ def registrar_cliente():
 
     return cliente
 
-def sortear():
-    pass
+def sortear() -> dict | None:
+    if len(clientes) == 0:
+        return None
+
+    return rd.choice(clientes)
 
 # Código principal.
 def main():
     while True:
+        os.system('cls')
         opcao = menu()
 
-        if opcao == '1':
-            listar_clientes()
-        elif opcao == '2':
-            cliente = registrar_cliente()
-            clientes.append(cliente)
-        elif opcao == '3':
-            cliente = sortear()
-            print('O cliente sorteado foi...')
-            break
+        match opcao:
+            case '1':
+                listar_clientes()
+            case '2':
+                cliente = registrar_cliente()
+                clientes.append(cliente)
+            case '3':
+                cliente = sortear()
+
+                if cliente is not None:
+                    print(f'O cliente sorteado foi {cliente.get("nome")}')
+                    print(f'Telefone: {cliente.get("telefone")}')
+                    print(f'Endereço: {cliente.get("")}')
+                else:
+                    print('Não foram realizadas vendas hoje.')
+
+                break
+        
+        print()
+        input('Aperte <ENTER> para continuar...')
 
     print('Fim do Programa')
 
