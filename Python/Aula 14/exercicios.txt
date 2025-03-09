@@ -1,0 +1,49 @@
+Ex01. Crie uma classe "Pessoa" que deve conter:
+
+Atributos:
+
+- nome (string)
+- cpf (string)
+- data_nascimento (date)
+
+Metódos:
+- calcular_idade() | Irá pegar a data atual com o modulo datetime e calcular a idade da pessoa.
+
+OBS: Peçam ajuda para o GPT para utilizar o modulo datetime
+
+"""
+from datetime import date
+
+# posicional
+data_nascimento1 = date(1980, 2, 15)
+# ou nomeado
+data_nascimento2 = date(year=1980, month=2, day=15)
+"""
+
+=================================================
+Ex02. Você foi convidado para fazer o sistema de uma loja:
+
+a. Faça uma classe "Item" que deve conter:
+
+Atributos:
+- nome (string)
+- categoria (string)
+- preco_unitario
+- quantidade
+
+b. Faça uma classe "Pedido" que deve conter:
+
+Atributos:
+- numero (string)
+- itens (list[Item])
+- data_hora (datetime) = now()
+- total (float)
+
+Metódos
+
+- calcular_total() - Calcula o Valor do Pedido
+- adicionar_item(item) - Adiciona mais um item na lista
+
+OBS*:O pedido poderá ser inicializado sem items (com uma lista vazia), caso seja inicializado preenchido, deverá ser calculado o valor total do pedido (Soma do produto entre o preço e quantidade de todos os itens).
+
+OBS**:Ao chamar o metódo "adicionar_item" você deve adicionar o item a lista caso não exista, e caso exista (nome existente), some a quantidade e no final recalcule o valor total do pedido.
