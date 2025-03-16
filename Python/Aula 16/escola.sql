@@ -26,14 +26,14 @@ CREATE TABLE alunos (
     criado_em TIMESTAMP NOT NULL DEFAULT NOW()
 );
 -- Excluindo Tabela
-DROP TABLE alunos;
+-- DROP TABLE alunos;
 
 -- Alterando Tabela
 -- ALTER TABLE alunos 
 -- ADD email VARCHAR(255) NOT NULL;
 
-ALTER TABLE alunos 
-DROP COLUMN email;
+-- ALTER TABLE alunos 
+-- DROP COLUMN email;
 -- ----------------------------------------
 -- DQL (Data Query Language)
 
