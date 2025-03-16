@@ -1,0 +1,3 @@
+Ex01. Utilizem o MySQL Connector e o Cursor para fazer uma função que busca todas as matérias cadastradas.
+
+Ex02. Utilizem o MySQL Connector e o Cursor para fazer uma função que irá cadastrar uma nova matéria.
